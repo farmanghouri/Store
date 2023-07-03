@@ -1,0 +1,199 @@
+*{
+    font-family: montserrat;
+}
+/*body section start*/
+body{
+    background: #f1fbff;
+}
+/*body section end*/
+
+/*section-padding start*/
+.section-padding{
+    padding: 100px 0;
+}
+/*section-padding end*/
+
+/*carousel item start*/
+.carousel-item{
+    height: 100vh;
+    min-height: 100px;
+}
+/*carousel item end*/
+
+/*carousel caption start*/
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+/*carousel caption end*/
+
+/*carousel caption h5 start*/
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+/*carousel caption h5 end*/
+
+/*carousel caption p start*/
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+/*carousel caption p end*/
+
+/*carousel inner start*/
+.carousel-inner::before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+/*carousel inner end*/
+
+/*navbar nav a start*/
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+/*navbar nav a end*/
+
+/*navbar-light navbar-brand start*/
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+/*navbar-light navbar-brand end*/
+
+/*navbar-light .navbar-brand:focus,
+navbar-light .navbar-brand:hover start*/
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+/*navbar-light .navbar-brand:focus,
+navbar-light .navbar-brand:hover end*/
+
+/*navbar-light navbar-nav navbar-link start*/
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+/*navbar-light navbar-nav navbar-link end*/
+
+/*w-100 start*/
+.w-100{
+    height: 100vh;
+}
+/*w-100 end*/
+
+/*image start*/
+.image{
+    width: 100%;
+    height: 50%;
+} 
+/*image end*/
+
+
+.img{
+    width: 120%;
+    height: 50vh;
+    z-index: 0;
+}
+
+/*text over img start*/
+.text-over-img{
+    z-index: 1;
+    font-size: 1.2rem;
+    margin-top: -100px;
+}
+/*text over img end*/
+
+/*social start*/
+.social{
+    display: flex;
+    align-items: center;
+}
+/*social end*/
+
+/*social h5 start*/
+.social h5{
+    color: #fff;
+    padding: 3px;
+    font-size: 14px;
+}
+/*social h5 end*/
+
+/*social icon start*/
+.social i{
+    font-size: 20px;
+    color: #eaa636;
+    padding: 3px 8px;
+    border-right: 1px solid #fdf5ed;
+    cursor: pointer;
+}
+/*social icon end*/
+
+/*social icon hover start*/
+.social i:hover{
+    color: #fff;
+}
+/*social icon hover end*/
+
+/*link light hover start*/
+.link-light:hover{
+    color: lightskyblue;
+}
+/*link light hover end*/
+
+/*hero section css start*/
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(breads-1867459_1280.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+/*hero section css end*/
+
+/*media section start*/
+ @media only screen and (min-width:768px) and (max-width:991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px; 
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 15px ;
+    }
+    .about-text{
+        padding: 50px 15px;
+    }
+}
+/*media section end*/
